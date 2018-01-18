@@ -14,7 +14,9 @@ notifications:
   email:
   - one@example.com
 deploy:
-  provider: Heroku
-  app: 
+  provider: heroku
+  api_key:
+    secure: 3c41289c-8089-4cc7-b04a-a14b95c60a72
+  app: danirguez-greeting-java 
   on:
     repo: danirguez/greeting-java
